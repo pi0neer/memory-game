@@ -1,0 +1,20 @@
+.card {
+  cursor: pointer;
+  width: 115px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.open {
+  background: var(--color-secondary);
+}
+
+.card.closed {
+  background: var(--color-primary);
+}
+
+.card.found {
+  opacity: 0;
+}

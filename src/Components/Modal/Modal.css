@@ -1,0 +1,40 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 110px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 70%;
+  transform: translateY(-70%);
+  left: 0;
+  right: 0;
+  width: 685px;
+  height: 371px;
+  border-radius: 12px;
+  background: #f53;
+}
+
+.modal button,
+.modal p {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal button {
+  cursor: pointer;
+  border-radius: 12px;
+  background: var(--color-primary);
+  width: 340px;
+  height: 64px;
+  flex-shrink: 0;
+  line-height: 10px;
+}
+
+.modal p {
+  line-height: 50px;
+}

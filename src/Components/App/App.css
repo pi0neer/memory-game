@@ -1,0 +1,47 @@
+h1 {
+  color: var(--color-primary);
+  font-family: Formular, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 144px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 965px;
+  height: 100vh;
+  margin: auto;
+}
+
+.game-field {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  column-gap: 73px;
+}
+
+.game-field .cards-field {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 14px;
+}
+
+.game-field .info p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.game-field .info p:nth-child(1) {
+  color: var(--color-primary);
+}
+
+.game-field .info p:nth-child(2) {
+  color: var(--color-accent);
+}
